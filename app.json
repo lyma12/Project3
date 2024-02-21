@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "RNProject",
+    "slug": "RNProject",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/facebookIcon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Facebook1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "vn.io.catan.antifakebook"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "vn.io.catan.antifakebook",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Cho phép $(PRODUCT_NAME) truy cập vào ảnh và video của bạn"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e9aed367-a601-4552-b253-43f3cf66065e"
+      }
+    }
+  }
+}
